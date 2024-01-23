@@ -1,0 +1,100 @@
+header {
+    background-color: #00D7FE;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #42515f;
+    padding: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    color: #abe3f1;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #da2149
+}
+
+body {
+    background-color: #00d8fe2d;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    text-align: center;
+}
+
+
+footer{
+    background-color: #34495e;
+    color: #c2dce2;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #00D7FE;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #e74c3c;
+}
+
+.redes-sociales {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.redes-sociales li{
+    margin: 0 10px;
+}
+
+.redes-sociales a {
+    color: #00D7FE;
+}
+
+form button,
+main > a > button,
+#Sobre_nosotros button,
+form input[type="submit"],
+form[action="Register.html"] button,
+#support_project input[type="submit"]
+   {
+    background-color: #00D7FE;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover,
+main > a > button:hover,
+#Sobre_nosotros button:hover,
+form input[type="submit"]:hover,
+form[action="Register.html"] button:hover,
+#support_project input[type="submit"]:hover
+   {
+    background-color: #da2149;
+   }

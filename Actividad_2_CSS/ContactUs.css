@@ -1,0 +1,29 @@
+main > h2 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+form {
+    max-width: 440px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form textarea {
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="date"] {
+    width: 35%;
+    margin-bottom: 10px;
+}
+

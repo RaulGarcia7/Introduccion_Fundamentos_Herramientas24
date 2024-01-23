@@ -1,0 +1,45 @@
+
+#unknown_rad_detail img {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 15px;
+}
+
+#unknown_rad_detail p {
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto 15px ;
+}
+
+
+#support_project {
+    background-color: #da2149b4; 
+    text-align: center;
+    padding: 20px; 
+}
+
+#support_project form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#support_project label {
+    margin-bottom: 10px;
+}
+
+#support_project div {
+    display: flex;
+    align-items: center;
+}
+
+#support_project input[type="number"] {
+    width: 80px; 
+    margin-right: 5px;
+}
+
+#support_project input[type="submit"] {
+
+    margin-left: 5px;
+
+}

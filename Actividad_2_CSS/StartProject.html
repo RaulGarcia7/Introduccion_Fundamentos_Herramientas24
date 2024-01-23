@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta name="author" content="Raúl García" />
+        <meta
+        name="description"
+        content="Esta página pretende ser de tipo crowfunding, buscando el apoyo de los usuarios 
+        para respaldar interesantes proyectos y dar una oportunidad a los que se quieran atrever" />
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="./assets/icons/DDF_Logo.png" type="image/x-icon" />
+        <link rel="stylesheet" href="styles.css"/>
+        <link rel="stylesheet" href="StartProject.css"/>
+        <title>DiverseDreams Funded</title>
+    </head>
+    <body>
+        <header>
+            <h1>DiverseDreams Funded</h1>
+            <p>Aquí comienza tu sueño</p>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="Index.html">Inicio</a></li>
+                <li><a href="Projects.html">Conoce los proyectos</a></li>
+                <li><a href="Login.html">Iniciar sesión</a></li>
+                <li><a href="ContactUs.html">Contacta con nosotros</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Dinos, ¿Cuál es tu proyecto?</h2>
+            <form>
+                <div class="formulario">
+                    <h3>Tipo de perfil</h3>
+                    <label>
+                        <strong>¿Tu proyecto se basa en productos tecnológicos?</strong>
+                        <input type="checkbox" name="Tecnologico_check">
+                    </label>
+                    <label>
+                        <strong>¿Es este el primer proyecto que realizas?</strong>
+                        <input type="checkbox" name="PrimerP_Check">
+                    </label>
+                    
+                    <div>
+                        <p><strong>¿Cuál es el perfil del proyecto?</strong></p>
+                        <label>
+                            <input type="radio" name="opcion" value="opcion1"> Proyecto emprendedor/universitario
+                        </label>
+                        <label>
+                            <input type="radio" name="opcion" value="opcion2"> Microemprendimiento/autónomos
+                        </label>
+                        <label>
+                            <input type="radio" name="opcion" value="opcion3"> Startup
+                        </label>
+                        <label>
+                            <input type="radio" name="opcion" value="opcion4"> Scaleup
+                        </label>
+                        <label>
+                            <input type="radio" name="opcion" value="opcion5"> Pyme
+                        </label>
+                    </div>
+                    
+                    <label for="Campo"><strong>Industria o campo del proyecto</strong></label>
+                    <input type="text" name="Campo" placeholder="Informática, música, etc..." required>
+                </div>
+    
+                <div class="formulario">
+                    <h3>Información del proyecto</h3>
+                    <label for="Nombre"><strong>Nombre del proyecto</strong></label>
+                    <input type="text" name="Nombre" required>
+                    
+                    <label for="Rol"><strong>¿Cuál es tu rol en el proyecto?</strong></label>
+                    <input type="text" name="Rol" placeholder="CEO, Project Manager, etc..." required>
+                    
+                    <label for="Etiquetas"><strong>¿Qué etiquetas describen tu proyecto?</strong></label>
+                    <textarea name="Etiquetas" cols="40" rows="5"></textarea>
+                    
+                    <p><strong>Fase de proyecto</strong></p>
+                    <label>
+                        <input type="radio" name="opcion" value="opcion6"> Idea
+                    </label>
+                    <label>
+                        <input type="radio" name="opcion" value="opcion7"> Prototipo
+                    </label>
+                    
+                    <label for="Descripcion"><strong>Describe tu proyecto</strong></label>
+                    <textarea name="Descripcion" cols="40" rows="10"></textarea>
+                    
+                    <p><strong>Modelo de negocio del proyecto</strong></p>
+                    <label>
+                        <input type="radio" name="opcion" value="opcion8"> B2b
+                    </label>
+                    <label>
+                        <input type="radio" name="opcion" value="opcion9"> B2c
+                    </label>
+                </div>
+    
+                <div class="formulario">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </form>
+        </main>
+        <footer>
+
+            <h3>¿Necesitas ayuda?</h3>
+            <a href="ContactUs.html">Contacta con nosotros</a>
+            <p>Preguntas frecuentes</p>
+            
+            <h4>Nuestras redes:</h4>
+
+            <ul class="redes-sociales">
+                <li><a href="https://facebook.com/profile.php?id=100015890056760" target="_blank">Facebook</a></li>
+                <li><a href="https://twitter.com/RaulGarcia077" target="_blank">Twitter</a></li>
+                <li><a href="https://instagram.com/raul_garcia1607/" target="_blank">Instagram</a></li>
+            </ul>
+
+
+            <hr>
+            <p>info@diversedreamsfunded.com / +34 635429166</p>
+            <p>© 2019-2023 DiverseDreams Funded</p>
+            <h4>Condiciones y privacidad</h4>
+            <h4>Aviso Legal</h4>
+            <h4>Cookies</h4>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,50 @@
+#subtitles {
+    background-color: #34495e;
+    color: #c2dce2;
+    padding: 20px;
+}
+
+#subtitles h2 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#subtitles h3 {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+#featured_projects {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.featured_project {
+    flex: 0 0 calc(33.33% - 20px);
+    margin: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.featured_project img {
+    max-width: 100%;
+    height: auto;
+}
+
+.featured_project div {
+    padding: 10px;
+    max-width: 300px;
+    margin: 0 auto;
+
+}
+
+.featured_project a {
+    text-decoration: none;
+}
+
+.featured_project p {
+    margin: 5px 0;
+    
+}
+
