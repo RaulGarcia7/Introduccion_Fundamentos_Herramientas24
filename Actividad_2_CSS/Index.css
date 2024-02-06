@@ -12,17 +12,11 @@ main > h2 {
 .featured_project {
     flex: 0 0 calc(33.33% - 20px);
     margin: 10px;
-    overflow: hidden;
-    text-align: center;
 }
 
 .featured_project img {
     max-width: 100%;
     height: auto;
-}
-
-.featured_project div{
-    padding: 10px;
 }
 
 #Sobre_nosotros {
