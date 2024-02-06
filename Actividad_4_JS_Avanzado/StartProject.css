@@ -1,0 +1,42 @@
+main{
+    text-align: center;
+}
+
+main > h2 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+form {
+
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+}
+
+form h3 {
+    display: inline-block;
+    border: 2px solid #00D7FE;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #77e8fc5b;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input[type="checkbox"],
+form input[type="radio"] {
+    margin-right: 5px;
+}
+
+form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input[type="text"] {
+    margin-bottom: 10px;
+}
+

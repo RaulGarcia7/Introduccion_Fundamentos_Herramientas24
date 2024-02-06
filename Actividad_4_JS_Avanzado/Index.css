@@ -1,0 +1,49 @@
+main > h2 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#featured_projects {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    height: 700px;
+    
+}
+
+.featured_project {
+    margin: 10px;
+    width: 400px;
+    position: absolute;
+    transition: opacity .5s ease-in;
+}
+
+.featured_project + .featured_project {
+    opacity: 0;
+    z-index: 0;
+}
+
+.featured_project img {
+    max-width: 100%;
+    height: auto;
+}
+
+#Sobre_nosotros {
+    text-align: center;
+    
+    background-color: #016b7e21;
+    padding: 10px;
+    margin-top: 10px;
+
+}
+
+#Sobre_nosotros h2,
+#colaboradores h2 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.contenido_sn {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
